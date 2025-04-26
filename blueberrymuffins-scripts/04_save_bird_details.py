@@ -1,9 +1,14 @@
 import requests
 import csv
+import os
+
+from dotenv import load_dotenv
+
+load_dotenv()
 
 headers = {
         "accept": "application/json",
-        "API-Key": "e46c99ca-f8d7-4ba7-aaf2-99980cb95ab8"
+        "API-Key": os.getenv("API-KEY")
     }
 
 def get_bird_ids():
