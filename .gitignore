@@ -1,2 +1,9 @@
 **/.DS_Store
 .env
+
+blueberrymuffins-backend/web/sites/default/files/css
+blueberrymuffins-backend/web/sites/default/files/js
+blueberrymuffins-backend/web/sites/default/files/php
+blueberrymuffins-backend/web/sites/default/files/sync
+blueberrymuffins-backend/web/sites/default/files/styles
+blueberrymuffins-backend/web/sites/default/private
